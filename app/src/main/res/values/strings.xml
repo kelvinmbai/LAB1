@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">register</string>
+    <string name="title_activity_home">home</string>
+    <string name="txtfirstname_hint">firstname</string>
+    <string name="txtlastname_hint">lastname</string>
+    <string name="txtemail_hint">email</string>
+    <string name="txtphonenumber_hint">phonenumber</string>
+    <string name="txtpassword_hint">password</string>
+    <string name="txtusername_hint">username</string>
+    <string name="txtlogin_hint">login</string>
+    <string name="txtsignup_hint">createAccount</string>
+    <string name="txtsubmit_hint">submit</string>
+
+</resources>
