@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>My Image Gallery</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css"/>
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+
+</head>
+<body>
+<?php
+session_start();
+echo"Welcome ". $_SESSION['username']."</br>";
+echo "<a href='logout.php'>logout</a>";
+?>
+<h1> Image Gallery Design</h1>
+<div class="gallery">
+
+<a href="images/black.jpg" data-lightbox="mygallery"><img src="images/black.jpg"></a>
+<a href="images/images.jpg" data-lightbox="mygallery"><img src="images/images.jpg"></a>
+<a href="images/redBlack.jpg" data-lightbox="mygallery"><img src="images/redBlack.jpg"></a>
+<a href="images/images.jpg" data-lightbox="mygallery"><img src="images/images.jpg"></a>
+<a href="images/redBlack.jpg" data-lightbox="mygallery"><img src="images/redBlack.jpg"></a>
+<a href="images/black.jpg" data-lightbox="mygallery"><img src="images/black.jpg"></a>
+
+
+</div>
+</body>
+</html>
